@@ -1,0 +1,15 @@
+Kategori
+	- namn
+	- id
+Artikel
+	- id
+	- titel
+	- text
+	- kategoriid
+	- forfattarid
+	- datum
+	- redigerad
+Forfattare
+	- email
+	- namn
+	- id

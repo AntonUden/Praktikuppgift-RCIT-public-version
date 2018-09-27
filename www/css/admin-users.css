@@ -1,0 +1,42 @@
+#account_option {
+	margin-top: 10px;
+	background-color: white;
+	border: 2px solid #000000;
+	border-radius: 5px;
+	width: 80%;
+}
+
+#changeUsernameBox {
+	position: fixed;
+	display: none;
+	z-index: 100;
+
+	width: 50%;
+	margin-left: -25%;
+
+	left: 50%;
+	top: 40%;
+
+	background-color: white;
+	border: 2px solid #000000;
+	border-radius: 5px;
+}
+
+.settings_icon {
+	width: 25px;
+	height: 25px;
+}
+
+.profile_picture {
+	width: 28px;
+	height: 28px;
+}
+
+.close_icon {
+	width: 20px;
+	height: 20px;
+}
+
+#changeUsernameBox form {
+	width: 90%;
+}

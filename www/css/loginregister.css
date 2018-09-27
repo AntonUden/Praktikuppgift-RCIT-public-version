@@ -1,0 +1,32 @@
+#inputArea {
+	margin: auto;
+	width: 40%;
+	border: 3px solid #000000;
+	background-color: white;
+	text-align: center;
+}
+
+#inputForm {
+	margin: auto;
+	width: 90%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	text-align:center;
+}
+
+#error {
+	margin: auto;
+	width: 100%;
+}
+
+#LoginRegister_link {
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+	vertical-align: bottom;
+}
+
+input {
+	text-align:center;
+}

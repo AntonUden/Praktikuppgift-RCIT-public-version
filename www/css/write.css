@@ -1,0 +1,129 @@
+@import url("/css/view.css");
+
+/* Input */
+#userInput {
+	margin: auto;
+	width: 80%;
+}
+
+#articleContent {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	min-height: 80vh;
+	max-height: 80vh;
+}
+
+/* Lables and objects */
+
+.scaledownInfo {
+	display: none;
+	text-align: center;
+	color: red;
+}
+
+#preview {
+	display: none;
+}
+
+#helpText {
+	margin-left:10%;
+	font-size: 120%;
+}
+
+#postError {
+	display: none;
+	color: red;
+}
+
+#cropImage {
+	display: block;
+	margin: 0 auto;
+}
+
+/* Buttons */
+
+#btn_preview {
+	display:inline-block;
+	width: 30%;
+}
+
+#btn_send {
+	display:inline-block;
+	width: 30%;
+}
+
+#btn_cancel {
+	display:inline-block;
+	width: 30%;
+}
+
+#closeCropButton {
+	position: absolute;
+	bottom: 2px;
+	width: 100%;
+}
+
+#closePreviewButton {
+	float: right;
+}
+
+/* Boxes and areas */
+#confirmBox {
+	text-align: center;
+	display: none;
+	position: fixed;
+	width: 500px;
+	height: 90px;
+	z-index: 3;
+	top: 50%;
+	left: 50%;
+	border: 2px solid #000000;
+	border-radius: 4px;
+	margin: -40px 0 0 -250px;
+	background: #EEEEEE;
+}
+
+#cropDiv {
+	display:none;
+	position: fixed;
+	width: 90%;
+	height: 90%;
+	z-index: 4;
+	top: 5%;
+	left: 5%;
+	border: 2px solid #000000;
+	border-radius: 4px;
+	background: #FFFFFF;
+}
+
+#msg_noLogin {
+	text-align: center;
+	position: fixed;
+	width: 400px;
+	height: 30px;
+	z-index: 30;
+	top: 50%;
+	left: 50%;
+	border: 2px solid #000000;
+	border-radius: 4px;
+	margin: -40px 0 0 -200px;
+	background: #EEEEEE;
+}
+
+#dimScreen {
+	display: none;
+	position: fixed;
+	padding:0;
+	margin:0;
+
+	top:0;
+	left:0;
+
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+	background:rgba(230,230,230,0.5);
+}
+
+/* /dev/null */

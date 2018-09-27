@@ -1,0 +1,11 @@
+bin/apache/logs
+www/userdata/img/*.png
+www/userdata/tmp/*.png
+bin
+temp
+phpapps
+utils
+UwAmp.exe
+uwamp.ini
+UwAmpUAC.exe
+*.log
